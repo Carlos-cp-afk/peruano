@@ -1,0 +1,116 @@
+/*Editando margenes por defecto*/
+*{
+	margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+	font: sans-serif, Helvetica;
+}
+
+/*Agregando imagen de fondo*/
+body{
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+/*Titulo*/
+.titulo{
+	font-size: 36px;
+	margin-bottom: 20px;
+	color: #010CFF;
+	text-align: center;
+	background-color: #FA951E;
+	padding: 5px 2px;
+	border-radius: 10px;
+}
+
+/*Editando Formulario*/
+.formulario{
+	width: 450px;
+	padding: 50px;
+	margin-top:60px;
+	 background: rgba(6, 92, 116, 0.4);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario:hover{
+	background-color: black;
+}
+
+/*Editando Inputs*/
+.cajas{
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px;
+	border:none;
+	margin-bottom: 20px;
+	font-size: 15px;
+	border-left: 20px solid #79b7c9;
+	border-right: 20px solid #79b7c9;
+}
+
+.cajas:hover{
+	border-left: 20px solid #FA951E;
+	border-right: 20px solid #FA951E;
+}
+
+/*Editando terminos*/
+
+.termino1{
+	text-align: center;
+	background-color: #19CFF7;
+	padding: 20px 0;
+	border-radius: 10px;
+
+}
+.termino2{
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #19CFF7;
+	padding: 20px 0;
+	border-radius: 10px;
+}
+
+/*Editando boton de registro*/
+.boton{
+	width: 100%;
+	padding: 15px;
+	border:none;
+	background-color: #79b7c9;
+	color:white;
+	font-size: 15px;
+	margin: 20px 0;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+
+.boton:hover{
+	background-color:#0BE039;
+}
+
+.otra-opcion{
+	text-align: center;
+	color:blue;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #FA951E;
+	padding: 20px 2px;
+
+}
+
+.otra-opcion:hover{
+	color:red;
+}
+
+.labeles{
+	color: #19CFF7;
+	font-size: 25px;
+	font-weight: bold;
+}
+
